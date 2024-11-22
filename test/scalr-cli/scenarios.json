@@ -1,0 +1,16 @@
+{
+    "scalr-cli": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "scalr-cli": {}
+        }
+    },
+    "scalr-version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "scalr-cli": {
+                "version": "0.14.5"
+            }
+        }
+    }
+}
