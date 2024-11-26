@@ -1,0 +1,20 @@
+
+{
+    "name": "Venom",
+    "id": "venom",
+    "version": "1.0.0",
+    "description": "Manage and run your integration tests with efficiency",
+    "options": {
+        "version": {
+            "type": "string",
+            "proposals": [
+                "1.2.0"
+            ],
+            "default": "1.2.0",
+            "description": "Select the version of venom"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

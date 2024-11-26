@@ -1,0 +1,16 @@
+{
+    "venom": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "venom": {}
+        }
+    },
+    "venom-version": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "venom": {
+                "version": "1.1.0"
+            }
+        }
+    }
+}
